@@ -1,0 +1,124 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Patrick+Hand&display=swap');
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+    background-color: #ededed;
+    
+}
+
+.container{
+    display: flex;
+    height: 80vh;
+    width: 80%;
+    margin: auto;
+    flex-direction: row;
+    margin-block-start: 60px;
+    /* box-shadow:20px 20px 50px 15px #d4d4d4; */
+    
+}
+.box{
+    width: 45%;
+    text-align: center;
+
+}
+h1{
+    color: white;
+    font-size: 4em;
+    font-weight: 600;
+    max-width: 300px;
+    background-color: transparent;
+
+}
+.pic-inbox{
+    background-image: url(https://images.unsplash.com/photo-1618005182384-a83a8bd57fbe?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=764&q=80);
+    font-family: 'Oswald', sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* border-radius: 8px; */
+
+}
+.login-inbox{
+    background-color: white;
+}
+
+.info-input{
+    text-align: center;
+    width: 80%;
+    height: 81%;
+    margin: auto;
+    margin-block-start: 46px;
+    font-family: 'Patrick Hand';
+    background-color: white;
+    }
+.grey-text{
+    color: #888888;
+}
+.info-input h2{
+    margin: 2px 44px;
+    font-size: 2rem;
+    text-align:left ;
+    background-color: transparent;
+
+}
+.submit-btn{
+    text-align: center;
+    width: 80%;
+    height: 50px;
+    background-color: blueviolet;
+    border-radius: 10px;
+    font-size: 1.2rem;
+    color: white;
+    font-weight:500;
+}
+.para{
+    font-size: 1.2rem;
+    margin:6px 44px;
+    text-align:left;
+    background-color: transparent;
+
+}
+form{
+    background-color: transparent;
+}
+label{
+    font-size:1.2rem;
+    background-color: transparent;
+
+}
+.input-btn{
+    margin: 2px 44px;
+    /* display: block; */
+    height: 42px;
+    width: 79%;
+    border-radius: 6px;
+    text-align: center;
+    font-size: 1.2rem;
+    background-color: transparent;
+
+
+}
+.line{
+    background-color: transparent;
+
+}
+.line a{
+    margin-left: 100px;
+    background-color: transparent;
+
+}
+.check-tog{
+    display:inline-block;
+    margin-left:16px;
+    font-size:0.9rem;
+    text-align:left;
+    background-color: transparent;
+
+}
+.purple-text{
+    color: blueviolet;
+    background-color: transparent;
+
+}
